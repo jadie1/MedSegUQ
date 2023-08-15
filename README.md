@@ -1,6 +1,8 @@
 # MedSegUQ
 This repo contains the source code for the paper "Benchmarking Scalable Epistemic Uncertainty Quantification in Organ Segmentation". To be presented at the [UNSURE workshop](https://unsuremiccai.github.io/) held in conjunction with MICCAI 2023. 
 
+Code dependencies can be found in `requirements.txt`
+
 Models are defined via a `.yaml` configuration file. Example configuration files are provided in `cfgs/`.
 
 ## Model Training
