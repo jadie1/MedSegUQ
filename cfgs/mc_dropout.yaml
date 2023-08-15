@@ -1,0 +1,15 @@
+!munch.Munch
+batch_size: 2
+data_dir: MedSegDecathlon/
+dataset: Task09_Spleen
+device: cuda:0
+dropout_prob: 0.1
+early_stop_patience: 100
+fold: 0
+load_model: null
+max_epochs: 1000
+model_name: dropout
+num_workers: 0
+seed: 0
+val_interval: 1
+work_dir: experiments/

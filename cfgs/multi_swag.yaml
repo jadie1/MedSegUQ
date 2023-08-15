@@ -1,0 +1,24 @@
+!munch.Munch
+batch_size: 2
+members: ['experiments/Task09_Spleen/fold0/swag_base_seed0/best_model.pth',
+          'experiments/Task09_Spleen/fold0/swag_base_seed1/best_model.pth',
+          'experiments/Task09_Spleen/fold0/swag_base_seed2/best_model.pth',
+          'experiments/Task09_Spleen/fold0/swag_base_seed3/best_model.pth',]
+member_model_name: swag
+base_model_paths: ['experiments/Task09_Spleen/fold0/base_seed0/best_model.pth',
+                  'experiments/Task09_Spleen/fold0/base_seed1/best_model.pth',
+                  'experiments/Task09_Spleen/fold0/base_seed2/best_model.pth',
+                  'experiments/Task09_Spleen/fold0/base_seed3/best_model.pth',]
+base_model_name: base
+data_dir: MedSegDecathlon/
+dataset: Task09_Spleen
+device: cuda:0
+early_stop_patience: 100
+fold: 0
+load_model: null
+max_epochs: 1000
+model_name: multi_swag
+num_workers: 0
+seed: 0
+val_interval: 1
+work_dir: experiments/

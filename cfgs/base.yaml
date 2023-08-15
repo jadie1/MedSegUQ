@@ -1,0 +1,15 @@
+!munch.Munch
+dataset: Task09_Spleen
+data_dir: MedSegDecathlon/
+model_name: base
+device: cuda:0
+work_dir: experiments/
+fold: 0
+
+batch_size: 2
+num_workers: 0
+max_epochs: 1000
+early_stop_patience: 100
+val_interval: 1
+seed: 0
+load_model: null 

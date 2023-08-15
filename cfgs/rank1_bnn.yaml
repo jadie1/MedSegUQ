@@ -1,0 +1,15 @@
+!munch.Munch
+batch_size: 4
+dataset: Task09_Spleen
+device: cuda:0
+early_stop_patience: 3000
+fold: 0
+load_model: null
+max_epochs: 3000
+model_name: rank1_bnn
+num_members: 4
+num_workers: 0
+seed: 0
+val_interval: 2
+weight_decay: 1.0e-05
+work_dir: experiments/

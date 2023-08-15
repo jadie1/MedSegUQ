@@ -1,0 +1,16 @@
+!munch.Munch
+base_model_name: base
+base_model_path: experiments/Task09_Spleen/fold0/base_seed0/best_model.pth
+batch_size: 2
+data_dir: MedSegDecathlon/
+dataset: Task09_Spleen
+device: cuda:0
+fold: 0
+learning_rate: 1.0e-08
+load_model: null
+model_name: swag
+num_workers: 0
+seed: 0
+swa_epochs: 100
+val_interval: 1
+work_dir: experiments/
